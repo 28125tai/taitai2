@@ -10,4 +10,14 @@
 # Output: ตัวเลขเกรด (0, 1, 2, 3 หรือ 4)
 # ==========================================
 
-# นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+score = int(input())
+if score >= 80:
+    print("4")
+elif score >= 70:
+    print("3")
+elif score >= 60:
+    print("2")
+elif score >= 50:
+    print("1")
+else: 
+    print("0")
